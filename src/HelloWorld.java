@@ -14,5 +14,10 @@ public class HelloWorld {
         //ln (neue Zeile)
         //übergeben mit "..." einen Text
         //Abkürzung "sout"+Enter =System.out.println();
+        System.out.print("Hallo ");
+        System.out.print("Campus ");
+        System.out.print("ohne Zeilenumbruch");//STRG + D => Duplicate Line
+        System.out.println();//Zeilenumbruch oder \n dann in zeile vor umbruch
+        System.out.println("Letzte Zeile");
     }
 }
