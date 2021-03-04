@@ -60,35 +60,40 @@ public class BruttoNetto {
         double brutto = netto + calculatedTax;
         System.out.println("brutto = " + brutto);
 
+        printNameToGrade(1);
+        printNameToGrade(3);
+        printNameToGrade(5);
+    }
+    //public static {Rückgabetyp: void/Datentyp} {name} ()
+    public static void printNameToGrade(int grade) {
+        //Ihre Aufgabe => Name für Schulnote auszugeben
         //Übung schulnote  sehr gut/gut/befriedigend/genügend/ nicht genügend
-        int schulnote = 1;
+        //int schulnote = 1;
         int language = 1; //1 == Deutsch // 2 == Englisch
         //Abfragen mit UND Verknüpft
-        if (schulnote == 1 && language == 1){
+        if (grade == 1 && language == 1) {
             System.out.println("Note: Sehr Gut");
-        }else if (schulnote == 2 && language == 1){
+        } else if (grade == 2 && language == 1) {
             System.out.println("Note: Gut");
-        }else if (schulnote == 3 && language == 1){
+        } else if (grade == 3 && language == 1) {
             System.out.println("Note: Befriedigend");
-        }else if (schulnote ==4 && language == 1){
+        } else if (grade == 4 && language == 1) {
             System.out.println("Note: Genügend");
-        }else if (schulnote ==5 && language == 1) {
+        } else if (grade == 5 && language == 1) {
             System.out.println("Note: Nicht Genügend");
         } else {
             System.out.println("Falsche Note");
         }
-        if (schulnote == 1 && language == 2){
+        if (grade == 1 && language == 2) {
             System.out.println("Note: A");
-        }else if (schulnote == 2 && language == 2){
+        } else if (grade == 2 && language == 2) {
             System.out.println("Note: B");
-        }else if (schulnote == 3 && language == 2){
+        } else if (grade == 3 && language == 2) {
             System.out.println("Note: C");
-        }else if (schulnote ==4 && language == 2){
+        } else if (grade == 4 && language == 2) {
             System.out.println("Note: D");
-        }else if (schulnote ==5 && language == 2) {
+        } else if (grade == 5 && language == 2) {
             System.out.println("Note: F");
-        } else {
-            System.out.println("Falsche Note");
         }
     }
 }
