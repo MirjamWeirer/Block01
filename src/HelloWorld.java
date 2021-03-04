@@ -7,7 +7,7 @@ public class HelloWorld {
     // 3. psvm+Enter generiert die main-Methode
     public static void main(String[] args) {
         //Startpunkt, fürs Programm
-        System.out.println("Hello World on day 4321");
+        System.out.println("Hello World on day 4321");//nach dem Text kommt ein Zeilenumbruch
         //Liebes "System"
         //wir wollen etwas "out" ausgeben
         //print
